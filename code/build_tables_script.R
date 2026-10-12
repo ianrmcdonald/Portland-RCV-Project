@@ -94,4 +94,19 @@ end <- Sys.time()
 start
 end
 
+#save all objects to cvr_objects.RData
+#save.image("data/cvr_objects.RData")
+
+# 1. Get all object names in the workspace
+#all_names <- ls()
+# 
+# # 2. Retrieve the actual objects
+#all_objects <- mget(all_names)
+# 
+# # 3. Filter out anything where is.function() is TRUE
+#data_only_list <- Filter(function(x) !is.function(x), all_objects)
+# 
+# # 4. Save the cleaned list
+#saveRDS(data_only_list, file = "data/cvr_objects.RData")
+
 
